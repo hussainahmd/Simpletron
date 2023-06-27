@@ -2,7 +2,7 @@
 
 This repo contains the implementation of Simpletron with GUI using javaFX.
 
-************************************************* What is Simpletron? ********************************************************
+• What is Simpletron?
 
 SIMPLETRON is a computer (through the technique of software-based simulation) on which you can execute your machine-language programs.
 The Simpletron runs programs written in the only language it directly understands: Simpletron Machine Language (SML).
