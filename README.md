@@ -16,9 +16,8 @@ Each location in the Simpletron’s memory may contain an instruction, a data va
 • The first two digits of each SML instruction are the operation code specifying the operation to be performed.
 • The last two digits of an SML instruction are the operand—the address of the memory location containing the word to which the operation applies.
 
-SML operation codes are summarized below.
+SML operation codes are summarized below:
 
-Operation code                                                         Meaning
 
 → Input/output operations:
 
@@ -46,7 +45,12 @@ Operation code                                                         Meaning
 
 
 → Transfer-of-control operations:
+
 • final int BRANCH = 40;                 Branch to a specific location in memory.
+
 • final int BRANCHNEG = 41;              Branch to a specific location in memory if the accumulator is negative.
+
 • final int BRANCHZERO = 42;             Branch to a specific location in memory if the accumulator is zero.
+
 • final int HALT = 43;                   Halt. The program has completed its task.
+
