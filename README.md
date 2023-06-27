@@ -21,18 +21,29 @@ SML operation codes are summarized below.
 Operation code                                                         Meaning
 
 → Input/output operations:
+
 • final int READ = 10;                     Read a word from the keyboard into a specific location in memory.
+
 • final int WRITE = 11;                    Write a word from a specific location in memory to the screen.
 
+
 → Load/store operations:
+
 • final int LOAD = 20;                     Load a word from a specific location in memory into the accumulator.
+
 • final int STORE = 21;                    Store a word from the accumulator into a specific location in memory.
 
+
 → Arithmetic operations:
+
 • final int ADD = 30;                     Add a word from a specific location in memory to the word in the accumulator.
+
 • final int SUBTRACT = 31;                Subtract a word from a specific location in memory from the word in the accumulator.
+
 • final int DIVIDE = 32;                  Divide a word from a specific location in memory into the word in the accumulator.
+
 • final int MULTIPLY = 33;                Multiply a word from a specific location in memory by the word in the accumulator.
+
 
 → Transfer-of-control operations:
 • final int BRANCH = 40;                 Branch to a specific location in memory.
