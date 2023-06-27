@@ -3,6 +3,8 @@
 This repo contains the implementation of Simpletron with GUI using javaFX. It loads a text file containing instructions to be executed.
 The list of instructions is listed below.
 
+You can either execute the progam in one go or execute it instruction by instruction.
+
 
 • How to run?
 
