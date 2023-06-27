@@ -16,7 +16,7 @@ import javafx.stage.*;
 
 
 //Application
-public class Final extends Application{
+public class Simpletron extends Application{
 	
 	private final int READ = 10;
 	private final int WRITE = 11;
