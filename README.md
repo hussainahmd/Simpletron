@@ -2,6 +2,16 @@
 
 This repo contains the implementation of Simpletron with GUI using javaFX.
 
+
+• How to run?
+
+Compile:
+javac --module-path "path to javafx-sdk\lib" --add-modules javafx.controls,javafx.fxml Simpletron.java
+
+Execute:
+java --module-path "path to javafx-sdk\lib" --add-modules javafx.controls,javafx.fxml Simpletron.java
+
+
 • What is Simpletron?
 
 SIMPLETRON is a computer (through the technique of software-based simulation) on which you can execute your machine-language programs.
