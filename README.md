@@ -67,3 +67,18 @@ SML operation codes are summarized below:
 
 • final int HALT = 43;                   Halt. The program has completed its task.
 
+
+Example:
+
+
+Instructions: 1007 1008 2007 3008 2109 1109 4300 0000 0000
+
+
+The above SML program  reads two numbers from the keyboard and computes and displays their sum.
+
+
+The instruction +1007 reads the first number from the keyboard and places it into location 07 (which has been initialized to 0).
+Then instruction +1008 reads the next number into location 08.
+The load instruction, +2007, puts the first number into the accumulator, and the add instruction, +3008, adds the second number to the number in the accumulator. All SML arithmetic instructions leave their results in the accumulator.
+The store instruction, +2109, places the result back into memory location 09, from which the write instruction, +1109, takes the number and displays it (as a signed four-digit decimal number). The halt instruction, +4300, terminates execution.
+
