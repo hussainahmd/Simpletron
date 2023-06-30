@@ -241,7 +241,7 @@ public class Simpletron extends Application{
 					alert.setContentText("No file selected!");
 				else
 					alert.setContentText(e.getMessage());
-				b2.setDisable(true);
+				//b2.setDisable(true);
 				alert.show();
 			}
 			
