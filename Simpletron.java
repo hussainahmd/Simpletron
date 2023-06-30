@@ -193,7 +193,10 @@ public class Simpletron extends Application{
 		//button 1 functionality -> read instructions from a file and store in the array
 		b1.setOnAction(lmda -> {
 			try{
-				File file = new FileChooser().showOpenDialog(stage);
+				FileChooser fileChooser = new FileChooser();
+				fileChooser.setTitle("Open Instructions Text File");
+				fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("Text Files", "*.txt"));
+				File file = fileChooser.showOpenDialog(null);
 				input = new Scanner(file);
 				
 				if (file == null) {
