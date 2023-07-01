@@ -71,7 +71,7 @@ SML operation codes are summarized below:
 Example:
 
 
-Instructions: 1007 1008 2007 3008 2109 1109 4300 0000 0000
+Instructions from the text file: 1007 1008 2007 3008 2109 1109 4300 0000 0000
 
 
 The above SML program  reads two numbers from the keyboard and computes and displays their sum.
