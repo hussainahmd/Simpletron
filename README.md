@@ -5,6 +5,10 @@ The list of instructions is listed below.
 
 You can either execute the progam in one go or execute it instruction by instruction.
 
+
+Here is a preview of the program:
+
+
 ![Screenshot (59)](https://github.com/hussainahmd/Simpletron/assets/101217726/50faf2c5-00b5-48bd-a522-88a71236019a)
 
 • How to run?
