@@ -112,6 +112,8 @@ public class Simpletron extends Application{
 
 		//for top horizontal bar
 		Label lb1 = new Label("Accumulator");
+		Label lb2 = new Label("InstCounter");
+
 		lb1.setFont(Font.font(null, FontWeight.SEMI_BOLD, 17));
 		lb1.setTextFill(Color.BLACK);
 		tf1 = new TextField(String.format("%d", 0));
@@ -120,7 +122,6 @@ public class Simpletron extends Application{
 		tf1.setAlignment(Pos.CENTER);
 		tf1.setEditable(false); tf1.setCursor(Cursor.DEFAULT);
 		
-		Label lb2 = new Label("InstCounter");
 		lb2.setFont(Font.font(null, FontWeight.SEMI_BOLD, 17));
 		lb2.setTextFill(Color.BLACK);
 		tf2 = new TextField(String.format("%02d", 0));
