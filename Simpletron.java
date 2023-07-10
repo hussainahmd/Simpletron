@@ -243,8 +243,7 @@ public class Simpletron extends Application {
 
 		});
 
-		// button 2 functionality -> execute program with respect to the radio button
-		// choosed
+		// button 2 functionality -> execute program with respect to the radio button choosed
 		b2.setOnAction(lmda2 -> {
 			Alert alert = new Alert(AlertType.ERROR);
 			try {
