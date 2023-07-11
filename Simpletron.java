@@ -13,7 +13,6 @@ import javafx.scene.text.*;
 import javafx.scene.control.Alert.*;
 import javafx.stage.*;
 
-//Application
 public class Simpletron extends Application {
 
 	private final int READ = 10;
