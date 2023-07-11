@@ -38,8 +38,7 @@ public class Simpletron extends Application {
 	private int operand = 0; // operand code
 	private boolean found = false; // find HALT
 
-	// list for storing the grid position where 0 is placed to output only single
-	// '0' instead of four
+	// list for storing the grid position where 0 is placed to output only single'0' instead of four
 	private List<Integer> list = new ArrayList<>();
 
 	private GridPane gPane;
