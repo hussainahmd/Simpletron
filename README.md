@@ -1,4 +1,4 @@
-# Simpletron GUI
+# Simpletron-GUI
 
 This repo contains the implementation of Simpletron with GUI using javaFX. It loads a text file containing instructions to be executed.
 The list of instructions is listed below.
